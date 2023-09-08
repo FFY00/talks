@@ -1,0 +1,13 @@
+[build-system]
+requires = ['hatchling']
+build-backend = 'hatchling.build'
+
+[project]
+name = 'myproject'
+version = '1.0.0'
+description = 'Our example Python project'
+requires-python = '>=3.8'
+license = {file = 'LICENSE'}
+authors = [
+  {name = 'Filipe Lains', email = 'lains@riseup.net'},
+]
