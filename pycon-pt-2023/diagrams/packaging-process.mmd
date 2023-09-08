@@ -1,0 +1,7 @@
+flowchart LR
+    source["Source Code"]
+    artifact["`Distribution artifact
+    *package*`"]
+    destination["Destination Environment"]
+    source --bundled--> artifact
+    artifact --unbundled--> destination
